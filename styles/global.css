@@ -45,8 +45,20 @@ body {
   padding-inline: 40px;
   margin-inline: auto;
 
+  position: relative;
+
 }
 
 img {
   max-width: 100%;
+}
+
+sub {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+h4 {
+  font: var(--title-md);
+  color: var(--gray-600);
 }
